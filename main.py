@@ -16,3 +16,7 @@ def typewriter(message):
 message = (red + 'We meet again, world. My name is Mihir. I live in an undisclosed location.')
 
 typewriter(message)
+
+message2 = (green + 'waddup world')
+
+typewriter(message2)
