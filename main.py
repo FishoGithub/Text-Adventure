@@ -1,7 +1,6 @@
 import time, sys
 
 #colors 
-
 green = "\033[0;32m"
 red = "\033[0;31m"
 yellow = "\033[0;33m"
@@ -18,6 +17,7 @@ bright_magenta = "\033[0;95m"
 bright_cyan = "\033[0;96m"
 bright_white = "\033[0;97m"
 
+#typewriter effect function
 def typewriter(message):
 	for i in message:
 		sys.stdout.write(i)
@@ -27,3 +27,6 @@ def typewriter(message):
 		else:
 			time.sleep(0.9)
 
+message = input(yellow + "You find yourself in a burger shop, to try and satisfy your hunger. But, you dont know what to eat. would you like to have an A- Cheeseburger, B- Pasta, or C- Salad. " + green + "[A,B,C]\n")
+
+typewriter(message)
