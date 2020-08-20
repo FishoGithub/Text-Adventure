@@ -20,7 +20,6 @@ def game_win():
 answer = input(bright_blue + "you find yourself lost in a cave. you have no idea how you got there, but, you know you want to get out. you see 2 tunnels before you. left, and right. which do you choose?" + green +" [left,right]")
 
 
-
 def left_path():
 
   print(red + "\nyou decide to go left. you find a tv blasting the veggie tales theme song. your head begins to implode but then your realize that in front of you is the off switch.\n")
@@ -75,7 +74,3 @@ def left_path():
 
 if answer == 'left':
   left_path()
-  
-        
-
-
