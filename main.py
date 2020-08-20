@@ -72,7 +72,7 @@ def left_path():
 
 
 def right_path():
-  print(bright_blue + "you decide to go right. you walk for a bit and find:\n")
+  print(bright_blue + "\nyou decide to go right. you walk for a bit and find:\n")
   print(white + "...\n")
   print(white + "...\n")
   print(white + "...\n")
@@ -81,3 +81,6 @@ def right_path():
 
 if answer == 'left':
   left_path()
+
+elif answer == "right":
+  right_path()
