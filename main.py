@@ -71,6 +71,13 @@ def left_path():
           game_win()
 
 
+def right_path():
+  print(bright_blue + "you decide to go right. you walk for a bit and find:\n")
+  print(white + "...\n")
+  print(white + "...\n")
+  print(white + "...\n")
+  print(red + "nothing.")
+
 
 if answer == 'left':
   left_path()
